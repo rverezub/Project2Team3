@@ -155,3 +155,21 @@ hr{
     margin-block: 2rem;
     border: 2px solid var(--c5);
 }
+
+/* Highlighted Text */
+.highlight {
+    color: var(--c4);
+    font-weight: bold;
+    background-color: var(--c3);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+ul li {
+    margin-bottom: 1.2rem;
+}
