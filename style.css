@@ -186,4 +186,5 @@ ul li {
 
 ol li {
     line-height: 2rem; /* Increases space between lines */
+    margin-bottom: 1rem
 }
