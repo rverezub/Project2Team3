@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Improvement Discussion</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Results summary of usability audit for Illinois Tech registration portal.">
+        <title>Results Summary</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href = "index.html">Problem Statement</a></li>
-                <li><a href = "protocol.html">Research Protocol</a></li>
-                <li><a href = "summary.html">Results Summary</a></li>
-                <li><a href = "discussion.html">Improvement Discussion</a></li>
-                <li><a href = "extra.html">Extra</a></li>
+                <li><a href="index.html">Problem Statement</a></li>
+                <li><a href="protocol.html">Research Protocol</a></li>
+                <li><a href="summary.html">Results Summary</a></li>
+                <li><a href="discussion.html">Improvement Discussion</a></li>
+                <li><a href="extra.html">Extra</a></li>
             </ul>
         </nav>
-        <div class = "container">
-            <h1>Summary of Study Results</h1>
+        <main class="container">
+            <h1>Results Summary</h1>
             <p>
-                *****summary of study results here*****
+                The site could benefit from several key changes to enhance user experience and streamline the course registration process. Below are some of the major issues and how each suggested change will improve usability:
             </p>
-        </div>
+            <ul>
+                <li><span class="highlight">Color Coding:</span> The current color coding system needs improvement. Linked courses should have the same color to make it easier for users to identify which courses are related. This would reduce confusion and make the scheduling process more intuitive.</li>
+                <li><span class="highlight">Lab/Recitation Prompt:</span> When a lecture is selected, the portal should automatically prompt users to link a lab or recitation, if required. This would prevent users from missing necessary components of their course registration and ensure a smoother experience.</li>
+                <li><span class="highlight">Error Messages:</span> The error messages displayed are too long and include raw HTML, which can be confusing for users. Simplifying these messages, with clear and actionable feedback, would make it easier for users to understand the problem and resolve it.</li>
+                <li><span class="highlight">Schedule Auto-Load:</span> The schedule should automatically load the first registered class, rather than defaulting to 12 a.m., which is not helpful. This would immediately present users with their courses, reducing the time spent adjusting the schedule view.</li>
+                <li><span class="highlight">Course Search:</span> Instead of requiring two separate inputs for course name and number, the search should allow users to input both together (e.g., "BIOL114"). This would speed up the search process and reduce unnecessary effort.</li>
+                <li><span class="highlight">Back to Find Classes Button:</span> The “Back to Find Classes” button should be placed in a more intuitive location to minimize confusion and reduce the time spent moving the cursor across the screen. A more logical placement would help users quickly navigate back to the search page without hesitation.</li>
+                <li><span class="highlight">Remove Class Action:</span> The “remove” option should be a button, rather than a dropdown menu item, and it should immediately remove the class from the schedule panel. This would streamline the process, making it more responsive and less confusing for users.</li>
+                <li><span class="highlight">Schedule Table:</span> The schedule table contains a lot of redundant and unnecessary information, such as the “Term” field for each class, which is repetitive, and the “Subject Description” and “Subject” fields, which overlap. Simplifying this table would make it easier for users, especially freshmen, to understand their course schedule without being overwhelmed by irrelevant details.</li>
+                <li><span class="highlight">Unclear Registration Failure Reasons:</span> It wasn’t always clear why course registration failed. A more detailed error message or explanation would help users understand the issue and fix it without unnecessary confusion.</li>
+                <li><span class="highlight">Navigation and Tabs:</span> The site’s tabs are overwhelming because there are too many with similar names and functions. Reducing the number of tabs and organizing them more clearly would help users find the features they need faster, making the entire registration process more efficient.</li>
+                <li><span class="highlight">Repetitive Registration PIN Requirement:</span> Requiring the registration PIN each time you log in feels unnecessary. Allowing users to stay logged in, or using a more streamlined login process, would reduce friction and save users time.</li>
+                <li><span class="highlight">Help Resources:</span> The help resources were either outdated or difficult to access. Making these resources more visible and updating them would ensure users have the support they need at every step of the registration process.</li>
+            </ul>
+            <p>
+                Incorporating these changes will improve the usability of the site by making it more intuitive, responsive, and easier to navigate. Users will be able to find and register for courses more efficiently, leading to a more seamless and less frustrating experience overall.
+            </p>
+        </main>
     </body>
 </html>

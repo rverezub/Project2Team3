@@ -105,7 +105,7 @@ li{
     font-family: var(--p);
 }
 ul, ol{
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-bottom: 2rem;
 }
 div ul li, div ol li{
@@ -172,4 +172,18 @@ p {
 
 ul li {
     margin-bottom: 1.2rem;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto; /* Centers the image with spacing */
+    border: 2px solid var(--c5);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+ol li {
+    line-height: 2rem; /* Increases space between lines */
 }
