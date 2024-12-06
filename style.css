@@ -189,3 +189,26 @@ ol li {
     line-height: 2rem; /* Increases space between lines */
     margin-bottom: 1rem
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--c4); /* Use your preferred color */
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: var(--c5); /* Slightly darker shade for hover */
+}
+
+html {
+    scroll-behavior: smooth;
+}
