@@ -4,41 +4,6 @@
 
 This project focuses on evaluating and improving the usability of the Illinois Tech registration portal. The website underwent a usability audit to identify its shortcomings, followed by proposed design changes aimed at enhancing the overall user experience. The deliverables for this project are structured into distinct HTML pages that document the process and proposed solutions.
 
-## Project Directory Structure
-project-root/
-│
-├── files/
-│   ├── Images_Improvement_Points/
-│   │   ├── Pts_1_4_5/
-│   │   │   ├── before.png
-│   │   │   ├── after.png
-│   │   ├── Pts_2/
-│   │   │   ├── before.png
-│   │   │   ├── after.png
-│   │   ├── Pts_3/
-│   │   │   ├── before.png
-│   │   │   ├── after.png
-│   │   ├── Pts_6_8_12/
-│   │   │   ├── before.png
-│   │   │   ├── after.png
-│   │   ├── Pts_7/
-│   │   │   ├── before.png
-│   │   │   ├── after.png
-│   │   ├── Pts_10/
-│   │   │   ├── before.png
-│   │   │   ├── after.png
-│   ├── IITportalErrorMessages.png
-│   ├── IITportalStartPage.png
-│   ├── ParticipantInfo-Sheet1.pdf
-│
-├── discussion.html
-├── extra.html
-├── illustrations.html
-├── index.html
-├── protocol.html
-├── summary.html
-├── style.css
-
 ## Pages Overview
 
 1. **Problem Statement (index.html)**  
@@ -88,3 +53,39 @@ This project was completed as part of the COM 421: Technical Communication class
 ## Contact
 
 For inquiries or feedback, kindly do not reach out to the contributors unless you are the professor.
+
+## Project Directory Structure
+```plaintext
+project-root/
+│
+├── files/
+│   ├── Images_Improvement_Points/
+│   │   ├── Pts_1_4_5/
+│   │   │   ├── before.png
+│   │   │   ├── after.png
+│   │   ├── Pts_2/
+│   │   │   ├── before.png
+│   │   │   ├── after.png
+│   │   ├── Pts_3/
+│   │   │   ├── before.png
+│   │   │   ├── after.png
+│   │   ├── Pts_6_8_12/
+│   │   │   ├── before.png
+│   │   │   ├── after.png
+│   │   ├── Pts_7/
+│   │   │   ├── before.png
+│   │   │   ├── after.png
+│   │   ├── Pts_10/
+│   │   │   ├── before.png
+│   │   │   ├── after.png
+│   ├── IITportalErrorMessages.png
+│   ├── IITportalStartPage.png
+│   ├── ParticipantInfo-Sheet1.pdf
+│
+├── discussion.html
+├── extra.html
+├── illustrations.html
+├── index.html
+├── protocol.html
+├── summary.html
+├── style.css
